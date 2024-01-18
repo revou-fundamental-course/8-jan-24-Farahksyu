@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Katik</title>
+</head>
+<body>
+    <header>
+        <h1>Katik <span>Kalkulator Matematik</span></h1>
+        <h4>Welcome to Katik</h4>
+        <p>Hai Sobat, Selamat datang di Katik <br> Sebuah web apps sederhana
+        yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+        <div class="square_first">Persegi</div>
+        <div class="middle_square">P. Panjang </div>
+        <div class="container"></div>
+    </header>
+
+    <!-- section luas Persegi -->
+    <section class="main-content">
+        <div class="luas-persegi">Luas Persegi</div>
+        <div class="square-black"></div>
+        <div class="under_square">Bujur sangkar</div>
+        <div>Rumus Luas Persegi yaitu :</div>
+        <div class="rumus_luas">L = S x S</div>
+        <div>Di mana :<br>L = Luas <br>S = Sisi</div>
+        <div class="inputSection">
+            <label for="squareSide">Hitung Luas Persegi</label>
+            <input type="number" id="squareSide2">
+        </div>
+        <div class="button">
+            <button class="button-hitung" onclick="hitung()">Hitung</button>
+            <p id="rumusLuasResult"></p>
+            <button class="button-reset" onclick="reset()">Reset</button>
+        </div>
+    </section>
+
+    <!-- section keliling persegi -->
+    <section>
+        <div class="keliling-persegi">Keliling Persegi</div>
+        <div class="square-black"></div>
+        <div class="under_square">Bujur sangkar</div>
+        <div>Rumus Keliling Persegi yaitu :</div>
+        <div class="rumus_luas">K = 4 x S</div>
+        <div>Di mana :<br>K = Keliling<br>S = Sisi</div>
+        <div class="inputSection">
+            <label for="squareSide" id="lblsquareSide">Hitung Keliling Persegi</label>
+            <input type="number" id="squareSide3">
+        </div>
+        <div class="button">
+            <button class="button-hitung" onclick="hitung2()">Hitung</button>
+            <p id="rumusKelilingResult"></p>
+            <button class="button-reset" onclick="reset()">Reset</button>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>

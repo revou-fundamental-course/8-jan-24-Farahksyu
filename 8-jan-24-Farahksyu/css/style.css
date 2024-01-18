@@ -1,0 +1,125 @@
+body {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+header {
+    text-align: center;
+}
+
+header h1{
+    color: white;
+    background-color: rgb(31, 90, 31);
+}
+header span{
+    color: rgb(233, 226, 226);
+}
+
+header h4{
+    font-size: 27px;
+    margin: 15px;
+}
+
+
+.square_first {
+    color: white;
+    background-color: rgb(35, 83, 31);
+    padding: 10px;
+    margin: 10px 0 10px 0;
+}
+
+.middle_square {
+    padding: 8px;
+    color: rgb(9, 31, 4);
+}
+
+.luas-persegi {
+    text-align: center;
+    color: white;
+    background-color: rgb(68, 116, 49);
+    padding: 14px;
+    margin: 10px 0 10px 0;
+    font-size: 27px;
+}
+
+.square-black{
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    padding: 10px;
+    text-align: center;
+    margin: 4% 0 1% 45%;
+}
+
+.under_square{
+    text-align: center;
+}
+
+.rumus_luas {
+    text-align: center;
+}
+
+.inputSection {
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+#squareSide2 {
+    margin-top: 10px;
+    outline: none;
+    border-radius: 8px;
+    border: solid #739072;
+    padding: 10px;
+}
+
+#squareSide3 {
+    margin-top: 10px;
+    outline: none;
+    border-radius: 8px;
+    border: solid #739072;
+    padding: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+
+button:hover{
+    background-color: #3a4d39;
+}
+
+button:active {
+    background-color: #739072;
+    transform: translateY(10px);
+}
+
+.button-hitung{
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 13px;
+    font-size: 15px;
+}
+
+.button-reset {
+    background-color: orange;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 13px;
+    font-size: 15px;
+}
+
+.keliling-persegi {
+    text-align: center;
+    color: white;
+    background-color: rgb(68, 116, 49);
+    padding: 14px;
+    margin: 70px 0 10px 0;
+    font-size: 27px;
+}
